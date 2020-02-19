@@ -1,11 +1,22 @@
 {
+  "name": "webpack-ts-chromeext",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tonkotsuboy/webpack-ts-chromeext.git",
+  "author": "Takeshi Kano <t.kano.624@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
   "devDependencies": {
-    "@types/chrome": "^0.0.88",
-    "@types/webpack": "^4.39.1",
-    "copy-webpack-plugin": "^5.0.4",
-    "ts-loader": "^6.1.0",
-    "typescript": "^3.6.3",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8"
+    "@types/chrome": "^0.0.95",
+    "@types/webpack": "^4.41.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   }
 }
